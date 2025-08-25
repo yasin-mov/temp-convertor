@@ -23,4 +23,4 @@ This project is built using **HTML**, **CSS**, and **JavaScript**.
 ## 🚀 How to Use
 1. Clone the repository or download the ZIP:
    ```bash
-   git clone https://github.com/your-username/temperature-converter.git
+   git clone https://github.com/yasin-mov/temp-convertor
