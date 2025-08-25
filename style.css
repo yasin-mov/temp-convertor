@@ -1,0 +1,141 @@
+/* عمومی */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit";
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.name {
+  margin-top: 0;
+  color: #103b8b;
+}
+
+/* کانتینر کلی */
+.container {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 23px -8px #103b8b;
+  max-width: 400px;
+  width: 90%;
+  border: 1px solid #23498f;
+  text-align: center;
+}
+
+/* بخش بالا */
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.convert-title,
+.to_title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* سلکت‌ها */
+select {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 10px 40px 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%206%205-6z%22%20fill%3D%22white%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 6px rgba(102, 175, 233, 0.6);
+}
+
+option {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* ورودی عدد */
+.input-Wrapper {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background-color: #2a2a2a;
+  color: #fff;
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease;
+}
+
+.input-Wrapper:focus {
+  outline: none;
+  border-color: #66afe9;
+}
+
+/* دکمه‌ها */
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.convert {
+  background-color: #103b8b;
+  color: #ffffff;
+}
+
+.convert:hover {
+  background-color: #0056b3;
+}
+
+.reset {
+  background-color: #a71d2a;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #72141d;
+  color: white;
+}
+
+/* نتیجه */
+.resultWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.after {
+  max-width: fit-content;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: white;
+}
